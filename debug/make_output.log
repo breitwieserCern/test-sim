@@ -1,0 +1,21 @@
+make: Entering directory '/tmp/demo/test-sim/build'
+make[1]: Entering directory '/tmp/demo/test-sim/build'
+make[2]: Entering directory '/tmp/demo/test-sim/build'
+Scanning dependencies of target test-sim-objectlib
+make[2]: Leaving directory '/tmp/demo/test-sim/build'
+make[2]: Entering directory '/tmp/demo/test-sim/build'
+[ 16%] Building CXX object CMakeFiles/test-sim-objectlib.dir/src/test-sim.cc.o
+In file included from /tmp/demo/test-sim/src/test-sim.cc:1:0:
+/tmp/demo/test-sim/src/test-sim.h: In function ‘int bdm::Simulate(int, const char**)’:
+/tmp/demo/test-sim/src/test-sim.h:17:3: error: expected ‘,’ or ‘;’ before ‘cell’
+   cell.SetDiameter(30);
+   ^
+CMakeFiles/test-sim-objectlib.dir/build.make:62: recipe for target 'CMakeFiles/test-sim-objectlib.dir/src/test-sim.cc.o' failed
+make[2]: *** [CMakeFiles/test-sim-objectlib.dir/src/test-sim.cc.o] Error 1
+make[2]: Leaving directory '/tmp/demo/test-sim/build'
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/test-sim-objectlib.dir/all' failed
+make[1]: *** [CMakeFiles/test-sim-objectlib.dir/all] Error 2
+make[1]: Leaving directory '/tmp/demo/test-sim/build'
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2
+make: Leaving directory '/tmp/demo/test-sim/build'
