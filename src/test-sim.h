@@ -13,7 +13,7 @@ inline int Simulate(int argc, const char** argv) {
   InitializeBioDynamo(argc, argv);
 
   // Define initial model - in this example: single cell at origin
-  Cell cell({0, 0, 0});
+  Cell cell({0, 0, 0})
   cell.SetDiameter(30);
   ResourceManager<>::Get()->push_back(cell);
 
